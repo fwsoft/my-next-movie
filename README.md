@@ -58,36 +58,6 @@ Testy uruchamia plan `MyNextMovie.xctestplan`. Zbiera pokrycie kodu (Report navi
 - TMDB i klucz API
 - Supabase
 
-## Start
-
-Robisz to raz, na pierwszych zajęciach.
-
-1. Na GitHubie utwórz **puste, prywatne** repozytorium, np. `my-next-movie`. Bez README i bez `.gitignore`.
-2. Sklonuj repozytorium przedmiotu i podepnij swoje:
-
-```sh
-git clone https://github.com/fwsoft/my-next-movie.git my-next-movie
-cd my-next-movie
-git remote rename origin upstream
-git remote add origin https://github.com/TWOJ_LOGIN/my-next-movie.git
-git push -u origin main
-```
-
-3. W swoim repozytorium: Settings, Collaborators. Dodaj prowadzącego.
-4. Skopiuj `Config/Secrets.xcconfig.example` jako `Config/Secrets.xcconfig` i wpisz klucze.
-5. Otwórz `MyNextMovie.xcodeproj`, uruchom aplikację (⌘R) i testy (⌘U).
-
-## Po każdych zajęciach
-
-Wypchnij aktualny postęp na GitHub, nawet jeśli zadanie nie jest skończone:
-
-```sh
-git add .
-git commit -m "feat: lab 2, movie list screen"
-git push
-```
-
-
 ## Nowe laboratoria
 
 Materiały do kolejnych zajęć pojawiają się w repozytorium przedmiotu. Pobierasz je tak:
@@ -101,7 +71,7 @@ git push
 
 Jeśli Git zgłosi konflikt, popraw zaznaczone pliki, potem `git add` i `git commit`.
 
-## Gdy `git pull upstream main` nie działa
+## Gdy `pull` nie działa
 
 Sprawdź, jakie repozytoria zna Twój projekt:
 
@@ -189,9 +159,9 @@ supabaseURL()
 supabaseAnonKey()
 ```
 
-## Oddanie projektu
+## Oddanie lab
 
-Na koniec semestru oddajesz ZIP z kodem na Moodle.
+Na koniec proszę zapisać postępy prac w dowolny sposób i oddać na Moodle gdy będzie taka możliwość.
 
 ## Dokumentacja
 
