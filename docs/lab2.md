@@ -6,16 +6,7 @@ Dane nadal są przykładowe, z `Services/SampleMovies.swift`. Wyszukiwanie w TMD
 
 ## Zanim zaczniesz
 
-1. Lab 1 musi być skończony i wypchnięty.
-2. Pobierz nowe pliki:
-
-```sh
-git pull --no-rebase --no-edit upstream main
-git push
-```
-
-3. Uruchom aplikację (⌘R). Wygląda tak samo jak po lab 1. Zakładka Search pojawi się dopiero po zadaniu 2.
-4. Uruchom testy (⌘U). Część nowych testów nie przechodzi, część jest pominięta. Tak ma być.
+1. Lab 1 musi być skończony.
 
 ## Nowe pliki
 
@@ -117,16 +108,6 @@ Sprawdź w aplikacji:
 5. Drugie kliknięcie w gatunek go odznacza.
 6. Kliknięcie w wynik otwiera szczegóły filmu.
 
-## Koniec zajęć
-
-1. Build (⌘B) bez ostrzeżeń. Testy (⌘U) przechodzą, żaden nie jest pominięty.
-2. Commit i push:
-
-```sh
-git add .
-git commit -m "feat: lab 2, search screen"
-git push
-```
 
 ## Na kolejne zajęcia
 
