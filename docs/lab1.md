@@ -51,18 +51,7 @@ Testy do napisania:
 
 ## Koniec zajęć
 
-1. Build (⌘B) bez ostrzeżeń. Testy (⌘U) przechodzą, żaden nie jest pominięty.
-2. Commit i push:
-
-```sh
-git add .
-git commit -m "feat: lab 1, movie grid and details"
-git push
-```
-
-## Na drugie zajęcia
-
-Załóż konto w TMDB i wygeneruj klucz API. Załóż konto w Supabase. Bez nich nie ruszysz z kolejnym laboratorium.
+Proszę o zapisanie prac w dowolny sposób i oddanie ich na Moodle gdy będzie taka możliwość.
 
 ## Dokumentacja
 
