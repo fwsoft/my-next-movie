@@ -116,6 +116,8 @@ Testy uruchamia plan `MyNextMovie.xctestplan`. Zbiera pokrycie kodu (Report navi
 
 Ta droga nie jest obowiązkowa. Daje historię zmian, kopię projektu w chmurze i nowe materiały jednym poleceniem zamiast ręcznego kopiowania. Projekt i tak oddaje się jako ZIP na Moodle.
 
+W pull requestach ze zmianami w migracjach Supabase [RattleCheck](.github/workflows/rattlecheck.yml) porównuje uprawnienia z gałęzią bazową. Przy nowym problemie o wysokiej lub krytycznej wadze wskazuje wiersz SQL do sprawdzenia. Nie wymaga kluczy Supabase.
+
 ### Start z Gitem
 
 1. Na GitHubie proszę utworzyć **puste, prywatne** repozytorium, np. `my-next-movie`. Bez README i bez `.gitignore`.
